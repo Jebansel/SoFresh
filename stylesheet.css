@@ -122,4 +122,16 @@ img {
 }
 
 .recipe-title {
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: white;
+  grid-column: 1/;
 }
