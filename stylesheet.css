@@ -1,0 +1,12 @@
+.headerclass {
+  background-color: #488345;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  font-size: 5em;
+  padding-bottom: 0.5em;
+}
