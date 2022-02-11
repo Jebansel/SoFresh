@@ -52,19 +52,19 @@ body {
   background-color: #488345;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1800px) {
   .grid-container {
     grid-template-columns: auto auto auto;
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .grid-container {
     grid-template-columns: auto auto;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .grid-container {
     grid-template-columns: auto;
   }
