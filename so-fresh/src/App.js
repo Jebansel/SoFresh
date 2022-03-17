@@ -13,7 +13,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <div className="sticky-navbar">
+          <Navbar />
+        </div>
         <Routes>
           <Route path="/" element={<Home messages={messages} />} />
           <Route path="/recipes" element={<Recipes recipes={recipes} />} />
