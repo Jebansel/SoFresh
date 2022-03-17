@@ -1,0 +1,21 @@
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* Add a blue color to the author */
+.author {
+  color: cornflowerblue;
+}
+
+.slideshow-container {
+  height: 200px;
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.carousel__inner-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

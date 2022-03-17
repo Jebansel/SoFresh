@@ -1,0 +1,16 @@
+.grid-item {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.recipe-title {
+  font-weight: bold;
+}
+
+.recipe-image {
+  height: 400px;
+  width: 400px;
+}

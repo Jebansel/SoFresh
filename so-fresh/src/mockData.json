@@ -1,0 +1,56 @@
+{
+  "data": {
+    "messages": [
+      {
+        "quote": "SoFresh is great for busy lifestyle and saves you shopping for ingredients etc. Food is fab and it’s a new way of cooking quick meals but so different and tasty",
+        "author": "- Jeban"
+      },
+      {
+        "quote": "Fantastic food which not only helps me to eat healthier but is teaching me how to cook. All the ingredients are super fresh and the choice of meals means no one is ever disappointed.",
+        "author": "- Rafa"
+      }
+    ],
+    "recipes": [
+      {
+        "image": {
+          "src": "https://production-media.gousto.co.uk/cms/mood-image/1405-Garlic-Chilli-Prawns--Mashed-Sweet-Potato.jpg",
+          "alt": "Mash and prawns ready dish"
+        },
+        "title": "Mash and prawns",
+        "sections": "one-pot meals",
+        "preparationTime": 45,
+        "kcal": 600
+      },
+      {
+        "image": {
+          "src": "https://inquiringchef.com/wp-content/uploads/2020/06/Pesto-Pasta-Salad_square.jpg",
+          "alt": "Pasta salad ready dish"
+        },
+        "title": "Pasta Salad",
+        "sections": "Vegetarian, Vegan",
+        "preparationTime": 25,
+        "kcal": 500
+      },
+      {
+        "image": {
+          "src": "https://thumbs.dreamstime.com/b/spaghetti-bolognese-sauce-close-up-photo-square-composition-plate-basil-garnish-blue-napkin-table-cloth-44227711.jpg",
+          "alt": "Spagetti bolognese ready dish"
+        },
+        "title": "Spaghetti Bolognese",
+        "sections": "Non-Vegetarian",
+        "preparationTime": 35,
+        "kcal": 624
+      },
+      {
+        "image": {
+          "src": "https://www.noracooks.com/wp-content/uploads/2018/09/Square.jpg",
+          "alt": "Vegan burger ready dish"
+        },
+        "title": "Vegan Burger",
+        "sections": "Vegetarian, Vegan",
+        "preparationTime": 20,
+        "kcal": 190
+      }
+    ]
+  }
+}
