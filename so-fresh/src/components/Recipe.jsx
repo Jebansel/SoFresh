@@ -1,13 +1,21 @@
 import { useState } from "react";
 import "../styles/Recipe.css";
 
-export const Recipe = ({ image, title, sections, preparationTime, kcal, handleCart }) => {
-  const [quantitySelected, setQuantitySelected] = useState(0);
+export const Recipe = ({
+  image,
+  title,
+  sections,
+  preparationTime,
+  kcal,
+  handleCart,
+  quantitySelected,
+}) => {
+  const [quantSelected, setQuantSelected] = useState(quantitySelected);
   const handleClick = (operation, title) => {
     if (quantitySelected <= 0 && operation === -1) {
       return;
     }
-    setQuantitySelected(quantitySelected + operation);
+    setQuantSelected(quantSelected + operation);
     handleCart(operation, title);
   };
   return (
@@ -20,7 +28,7 @@ export const Recipe = ({ image, title, sections, preparationTime, kcal, handleCa
       <button disabled={quantitySelected <= 0} onClick={() => handleClick(-1, title)}>
         -
       </button>
-      <p>{quantitySelected}</p>
+      <p>{quantSelected}</p>
       <button onClick={() => handleClick(1, title)}>+</button>
     </div>
   );
