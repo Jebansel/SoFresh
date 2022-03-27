@@ -19,17 +19,19 @@
         "title": "Mash and prawns",
         "sections": "one-pot meals",
         "preparationTime": 45,
-        "kcal": 600
+        "kcal": 600,
+        "quantitySelected": 0
       },
       {
         "image": {
-          "src": "https://inquiringchef.com/wp-content/uploads/2020/06/Pesto-Pasta-Salad_square.jpg",
+          "src": "https://www.kitchensanctuary.com/wp-content/uploads/2020/04/Pasta-Salad-square-FS-16-500x500.jpg",
           "alt": "Pasta salad ready dish"
         },
         "title": "Pasta Salad",
         "sections": "Vegetarian, Vegan",
         "preparationTime": 25,
-        "kcal": 500
+        "kcal": 500,
+        "quantitySelected": 0
       },
       {
         "image": {
@@ -39,7 +41,8 @@
         "title": "Spaghetti Bolognese",
         "sections": "Non-Vegetarian",
         "preparationTime": 35,
-        "kcal": 624
+        "kcal": 624,
+        "quantitySelected": 0
       },
       {
         "image": {
@@ -49,7 +52,8 @@
         "title": "Vegan Burger",
         "sections": "Vegetarian, Vegan",
         "preparationTime": 20,
-        "kcal": 190
+        "kcal": 190,
+        "quantitySelected": 0
       }
     ]
   }
