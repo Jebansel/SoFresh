@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #488345;
+}
+
+@media (max-width: 1800px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 1350px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
